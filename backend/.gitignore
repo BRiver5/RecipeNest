@@ -1,0 +1,5 @@
+﻿.venv/
+recipenest.db
+static/recipe_images/*
+!static/recipe_images/seed/
+__pycache__/

@@ -1,0 +1,29 @@
+# Frontend (Expo)
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
+frontend/*.tsbuildinfo
+frontend/ios/
+frontend/android/
+
+# Backend (FastAPI)
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/recipenest.db
+backend/static/recipe_images/user/
+backend/*.egg-info/
+
+# Env
+.env
+.env.local
+frontend/.env
+
+# Release builds (AAB, store assets)
+release/
+
+# OS
+.DS_Store
+Thumbs.db
